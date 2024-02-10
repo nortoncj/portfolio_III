@@ -68,7 +68,7 @@ const Contact = () => {
           }
         );
       setSuccessMsg(
-        `Thank you ${name}, Your Messages has been sent Successfully!`
+        `Thank you ${name}, Your message has been sent Successfully!`
       );
       setErrMsg("");
       setname("");

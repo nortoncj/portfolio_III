@@ -7,10 +7,12 @@ function Navbar() {
   return (
     <div className="w-full h-24 mx-auto flex justify-between items-center font-title border-b-[1px] border-b-gray-600">
       <div>
-        <img className="h-16" src={logo} alt="logo" />
+        <a href="/">
+          <img className="lg:h-16 xs:h-8" src={logo} alt="logo" />
+        </a>
       </div>
       <div>
-        <ul className="flex items-center gap-10">
+        <ul className="flex items-center xs:gap-3 sm:gap-5 md:gap-5 lg:gap-10">
           {navLinksData.map(({ _id, title, link }) => (
             <li
               className="text-base font-normal tracking-wide cursor-pointer hover:text-designColor duration-300"
