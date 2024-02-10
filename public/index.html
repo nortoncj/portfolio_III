@@ -3,22 +3,22 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/Logo_bg.png" />
-    <title>Chris Norton | Developer | Analyst</title>
+    <title>Chris Norton | Software Engineer</title>
     <meta property="og:title" content="Chris Norton Portfolio" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content={document.url} />
-<meta property="og:image" content="%PUBLIC_URL%/Logo_bg.png" />
-<meta name="twitter:title" content="Chris Norton Portfolio">
-<meta name="twitter:description" content="Chris Norton - Software Engineer ">
-<meta name="twitter:image" content="%PUBLIC_URL%/Logo_bg.png">
-<meta name="twitter:card" content="summary_large_image">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{document.url}" />
+    <meta property="og:image" content="./Logo_og.jpg" />
+    <meta name="twitter:title" content="Chris Norton Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Chris Norton - Software Engineer "
+    />
+    <meta name="twitter:image" content="./Logo_og.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <meta name="description" content="Software Engineer" />
+    <link rel="apple-touch-icon" href="./Logo_og.jpg" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -35,6 +35,20 @@
     -->
     <title>React App</title>
   </head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-S5ZBPZ262W"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-S5ZBPZ262W");
+  </script>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
@@ -49,7 +63,8 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
-  <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+  ></script>
 </html>

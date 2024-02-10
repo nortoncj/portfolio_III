@@ -20,12 +20,12 @@ const Projects = () => {
           title="Ecommerce and Saas"
           des=" Node JS, React, Typescript, AWS S3 storage, Azure Blob storage and functions,  HTML, CSS, Tailwind UI, Mongo DB, Stripe"
           src={project1}
-          link="https://cardicus-986xci8ne-nortoncj.vercel.app/"
+          link="https://fresh-ts.vercel.app/"
           git="https://github.com/nortoncj/fresh-ts"
         />
         <ProjectsCard
           title="Game Stream and Development Site"
-          des=" Wordpress, HTML, CSS, PHP, Twitch and Youtube API integration"
+          des=" Wordpress, AWS hosting, HTML, CSS, PHP, Twitch and Youtube API integration"
           src={project2}
           link="https://fightershavenunited.com/"
         />
