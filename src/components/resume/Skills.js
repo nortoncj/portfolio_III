@@ -24,22 +24,22 @@ const Skills = () => {
               <td className="text-sm uppercase font-medium">
                 Google analytics
               </td>
-              <td>Photoshop</td>
+              <td className="text-sm uppercase font-medium">Photoshop</td>
             </tr>
             <tr className="w-full h-2 bgOpacity rounded-md mt-4">
               <td className="text-sm uppercase font-medium">MYSQL</td>
               <td className="text-sm uppercase font-medium">Mongo Db</td>
-              <td>Pivot Tables</td>
+              <td className="text-sm uppercase font-medium">Pivot Tables</td>
             </tr>
             <tr className="mt-4">
               <td className="text-sm uppercase font-medium">Power BI</td>
               <td className="text-sm uppercase font-medium">Tableu</td>
-              <td>MatLab</td>
+              <td className="text-sm uppercase font-medium">MatLab</td>
             </tr>
             <tr>
-              <td>Python</td>
-              <td>Pandas</td>
-              <td>MatplotLib</td>
+              <td className="text-sm uppercase font-medium">Python</td>
+              <td className="text-sm uppercase font-medium">Pandas</td>
+              <td className="text-sm uppercase font-medium">MatplotLib</td>
             </tr>
           </table>
         </div>
@@ -70,14 +70,14 @@ const Skills = () => {
               <td className="text-sm uppercase font-medium">laravel</td>
             </tr>
             <tr>
-            <td className="text-sm uppercase font-medium">java</td>
-            <td className="text-sm uppercase font-medium">c#</td>
-            <td className="text-sm uppercase font-medium">Shopify</td>
+              <td className="text-sm uppercase font-medium">java</td>
+              <td className="text-sm uppercase font-medium">c#</td>
+              <td className="text-sm uppercase font-medium">Shopify</td>
             </tr>
             <tr>
               <td className="text-sm uppercase font-medium">html emails</td>
-            <td className="text-sm uppercase font-medium">AWS</td>
-            <td className="text-sm uppercase font-medium">Azure</td>
+              <td className="text-sm uppercase font-medium">AWS</td>
+              <td className="text-sm uppercase font-medium">Azure</td>
             </tr>
           </table>
         </div>
