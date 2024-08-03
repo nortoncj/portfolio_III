@@ -32,7 +32,7 @@ const ContactLeft = () => {
           >
             <FaLinkedinIn />
           </a>
-          <a href="https://twitter.com/Hustle_n_code" className="bannerIcon">
+          <a href="https://twitter.com/CodemanChris" className="bannerIcon">
             <FaXTwitter />
           </a>
           <a

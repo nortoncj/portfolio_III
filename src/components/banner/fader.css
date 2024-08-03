@@ -1,0 +1,13 @@
+.fading-word {
+    font-size: 48px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .fading-word.visible {
+    opacity: 1;
+  }
+
+
+

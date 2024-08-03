@@ -2,13 +2,13 @@ import React from "react";
 import { Link } from "react-scroll";
 import { navLinksData } from "../../constants";
 import { FaXTwitter, FaLinkedinIn, FaYoutube } from "react-icons/fa6";
-import {logo} from "../../assets/index"
+import { logo } from "../../assets/index";
 
 const Footer = () => {
   return (
     <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
       <div className="w-full h-full flex flex-col gap-8">
-      <img className="h-16 w-16" src={logo} alt="logo" />
+        <img className="h-16 w-16" src={logo} alt="logo" />
         <div className="flex gap-4">
           <a
             href="https://www.linkedin.com/in/chrisnortonjr/"
@@ -16,7 +16,7 @@ const Footer = () => {
           >
             <FaLinkedinIn />
           </a>
-          <a href="https://twitter.com/Hustle_n_code" className="bannerIcon">
+          <a href="https://twitter.com/CodemanChris" className="bannerIcon">
             <FaXTwitter />
           </a>
           <a
@@ -32,7 +32,6 @@ const Footer = () => {
           Quick Link
         </h3>
         <ul className="flex flex-row gap-4 font-titleFont font-medium py-6 ">
-        
           {navLinksData.map(({ _id, title, link }) => (
             <li
               className="text-base font-normal tracking-wide cursor-pointer hover:text-designColor duration-300"
@@ -54,8 +53,6 @@ const Footer = () => {
           ))}
         </ul>
       </div>
-     
-     
     </div>
   );
 };

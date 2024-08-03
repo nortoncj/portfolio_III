@@ -1,6 +1,7 @@
 import React from "react";
 import { FaXTwitter, FaLinkedinIn, FaYoutube } from "react-icons/fa6";
-import { SiPhp, SiPython } from "react-icons/si";
+import { BiLogoPhp } from "react-icons/bi";
+import {  SiPython } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 const Media = () => {
   return (
@@ -10,14 +11,13 @@ const Media = () => {
           Follow me on
         </h2>
         <div className="flex gap-4">
-          
           <a
             href="https://www.linkedin.com/in/chrisnortonjr/"
             className="bannerIcon text-blue-500"
           >
             <FaLinkedinIn />
           </a>
-          <a href="https://twitter.com/Hustle_n_code" className="bannerIcon">
+          <a href="https://twitter.com/CodemanChris" className="bannerIcon">
             <FaXTwitter />
           </a>
           <a
@@ -37,8 +37,8 @@ const Media = () => {
           <span className="bannerIcon text-blue-500">
             <SiPython />
           </span>
-          <span className="bannerIcon text-lg">
-            <SiPhp />
+          <span className="bannerIcon text-lg text-stone-500">
+            <BiLogoPhp size='50px' />
           </span>
         </div>
       </div>

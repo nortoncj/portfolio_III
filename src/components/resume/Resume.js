@@ -12,9 +12,19 @@ const Resume = () => {
   const [achievementData, setAchievementData] = useState(false);
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
-      <div className="flex justify-center items-center text-center">
-        <Title title="4+ YEARS OF EXPERIENCE" des="My Resume" />
+      <div className="flex justify-center items-center text-center hover:bo">
+        {" "}
+        <Title title="4+ YEARS OF EXPERIENCE" des="My Resume" />{" "}
       </div>
+      <div className="flex justify-center mb-8 hover:text-designColor duration-300 cursor-pointer tracking-wide ">
+        <a href="https://docs.google.com/document/d/1eTmLsZ3AbMY3njWI265Y4WPVeXqiAXka0bAiOi17vlI/edit?usp=sharing">
+          <h2 className="text-xl md:text-2xl uppercase font-titleFont font-bold mb-4 flex">
+            {" "}
+            Download Resume{" "}
+          </h2>{" "}
+        </a>
+      </div>
+
       <div>
         <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 cursor-pointer">
           <li
@@ -56,7 +66,7 @@ const Resume = () => {
               experienceData
                 ? "border-designColor rounded-lg"
                 : "border-transparent"
-            } resumeLi`}
+            } resumeLi max-md:hidden`}
           >
             Experience
           </li>
@@ -69,9 +79,9 @@ const Resume = () => {
             }
             className={`${
               achievementData
-                ? "border-designColor rounded-lg"
+                ? "border-designColor rounded-lg "
                 : "border-transparent"
-            } resumeLi`}
+            } resumeLi max-lg:hidden `}
           >
             Achievements
           </li>

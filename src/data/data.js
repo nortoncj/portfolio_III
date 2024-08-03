@@ -1,6 +1,6 @@
 import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe, FaChartLine } from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
+import { FaGlobe, FaChartLine } from "react-icons/fa";
+import { SiProgress, SiAntdesign, SiMinutemailer } from "react-icons/si";
 
 // Features Data
 export const featuresData = [
@@ -8,37 +8,37 @@ export const featuresData = [
     id: 1,
     icon: <AiFillAppstore />,
     title: "App Development",
-    des: "Whether it be a large coding project or a WordPress site I can find a way to meet your needs",
+    des: "From intricate custom applications to streamlined WordPress solutions, I specialize in creating tailored digital products. Let's transform your vision into a reality.",
   },
   {
     id: 2,
     icon: <SiProgress />,
     title: "SEO Optimisation",
-    des: "I'll make sure your project gets the most visibility in all search engines",
+    des: "Let's skyrocket your online visibility. I'll optimize your website to attract more organic traffic and outrank your competitors.",
   },
   {
     id: 3,
-    icon: <FaMobile />,
-    title: "Responsive Design",
-    des: "Your project is guaranteed to be eye-catching on all devices",
+    icon: <SiMinutemailer />,
+    title: "Email Automation",
+    des: "Let's create automated campaigns that captivate your audience, drive sales, and strengthen customer loyalty.",
   },
   {
     id: 4,
     icon: <FaChartLine />,
     title: "Data Analytics",
-    des: "Implementing industry standard software such as Google Analytics and advanced data science tactics in Python",
+    des: "Leveraging Google Analytics and Python's data science capabilities, I transform raw data into actionable insights",
   },
   {
     id: 5,
     icon: <SiAntdesign />,
     title: "Data Visualization",
-    des: "Translating your data sheets into readable graphs for goal setting",
+    des: "Let's turn your numbers into a compelling story. I'll create striking reports and dashboards that highlight trends.",
   },
 
   {
     id: 6,
     icon: <FaGlobe />,
     title: "Cloud Operations",
-    des: "Experienced in AWS and Azure for your cloud applications",
+    des: "Experienced in AWS and Azure in order to fufill your cloud and devops needs",
   },
 ];

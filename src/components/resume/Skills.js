@@ -41,6 +41,11 @@ const Skills = () => {
               <td className="text-sm uppercase font-medium">Pandas</td>
               <td className="text-sm uppercase font-medium">MatplotLib</td>
             </tr>
+            <tr>
+            <td className="text-sm uppercase font-medium">Convertkit</td>
+            <td className="text-sm uppercase font-medium">Litmus</td>
+            <td className="text-sm uppercase font-medium">Klavio</td>
+            </tr>
           </table>
         </div>
       </div>
@@ -72,12 +77,17 @@ const Skills = () => {
             <tr>
               <td className="text-sm uppercase font-medium">java</td>
               <td className="text-sm uppercase font-medium">c#</td>
-              <td className="text-sm uppercase font-medium">Shopify</td>
+              <td className="text-sm uppercase font-medium">.Net</td>
             </tr>
             <tr>
               <td className="text-sm uppercase font-medium">html emails</td>
               <td className="text-sm uppercase font-medium">AWS</td>
               <td className="text-sm uppercase font-medium">Azure</td>
+            </tr>
+            <tr>
+              <td className="text-sm uppercase font-medium">Liquid</td>
+              <td className="text-sm uppercase font-medium">MJML</td>
+              <td className="text-sm uppercase font-medium">Shopify</td>
             </tr>
           </table>
         </div>

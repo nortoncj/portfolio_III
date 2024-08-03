@@ -1,6 +1,7 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Media from "./Media";
+import Fader from "./Fader";
 
 export default function LeftBanner() {
   const [text] = useTypewriter({
@@ -23,22 +24,16 @@ export default function LeftBanner() {
           Hi, I'm <span className="text-designColor capitalize">Chris</span>
         </h1>
         <h2 className="text-4xl font-bold text-darkText">
-          <span>{text}</span>
-          <Cursor
+          <span><Fader /></span>
+          {/* <Cursor
             cursorBlinking="false"
             cursorStyle="|"
             cursorColor="#ff014f"
-          />
+          /> */}
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
           {" "}
-          I'm a committed software engineer with over 4 years experience
-          currently trying to bridge the gap between software engineering and
-          data science. Allow me to deliver comprehensive solutions that not
-          only meet but exceed expectations. With a knack for problem-solving
-          and a dedication to continuous learning, I am excited to contribute my
-          skills and experience to innovative projects in the ever-evolving
-          landscape of technology.
+          A seasoned web developer with a passion for innovation, I'm bridging the gap between software engineering and data science to create exceptional digital solutions. With a proven track record of delivering results that exceed expectations, I thrive on tackling complex challenges. My dedication to continuous learning empowers me to contribute meaningfully to cutting-edge projects. Let's build the future together.
         </p>
       </div>
       {/* Media */}

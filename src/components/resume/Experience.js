@@ -1,5 +1,5 @@
 import React from "react";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
 
 const Experience = () => {
@@ -42,6 +42,18 @@ const Experience = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black flex flex-col gap-10">
           <ResumeCard
+            title="New York Life"
+            subTitle="Life Insurance (2024)"
+            result="Tampa FL"
+            des="Provided analysis and visualizations for client outreach. Lead initiative to setup Salesforce email automation."
+          />
+          <ResumeCard
+            title="Treasure Valley Roofing"
+            subTitle="Roofing Company (2024)"
+            result="Tampa FL"
+            des="Overhauled the front-end using HTML, CSS and PHP. Provided detailed SEO audit and Performance audit. Optimized for performance and SEO."
+          />
+          <ResumeCard
             title="Toastmasters"
             subTitle="Non-Profit Speech organization (2023)"
             result="Tampa FL"
@@ -53,7 +65,6 @@ const Experience = () => {
             result="Tampa FL"
             des="Created a web app with Python, HTML, JavaScript, CSS and Google Cloud Suite. Created an app that scans vectors in the face and replicates it with an emoji."
           />
-         
         </div>
       </div>
     </motion.div>
