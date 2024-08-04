@@ -26,7 +26,7 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
-        <ProjectsCard
+        {/* <ProjectsCard
           title="Ecommerce and Saas"
           des=" Node JS, React, Typescript, AWS S3 storage, Azure Blob storage and functions,  HTML, CSS, Tailwind UI, Mongo DB, Stripe"
           src={project1}
@@ -36,7 +36,7 @@ const Projects = () => {
           username="test@test.com"
           password="12345"
           git="https://github.com/nortoncj/fresh-ts"
-        />
+        /> */}
         <ProjectsCard
           title="Roofing Website"
           des=" Wordpress, AWS hosting, HTML, CSS, PHP, JavaScript"
@@ -84,7 +84,7 @@ const Projects = () => {
           des="Dashboard for web marketing in Tableau"
           src={project8}
           modLink="https://github.com/nortoncj/web-marketing-tab"
-          video="22F9guwtIQA?si"
+          video="usIyITVMprw?si"
         />
         <ProjectsCard
           title="Property Management Dashboard"

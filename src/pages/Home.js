@@ -7,6 +7,7 @@ import Resume from "../components/resume/Resume";
 import Footer from "../components/footer/Footer";
 import FooterBottom from "../components/footer/FooterBottom";
 import Contact from "../components/contact/Contact";
+import Testimonial from '../components/testimonials/Testimonial';
 
 // Conditonal CSS
 if (window?.location.pathname === '/')
@@ -21,6 +22,7 @@ export default function Home() {
         <Services />
         <Projects />
         < Resume />
+        
         <Footer />
         <FooterBottom />
       </div>

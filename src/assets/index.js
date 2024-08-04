@@ -11,9 +11,9 @@ import project8 from "./images/projects/web.png";
 import project9 from "./images/projects/property.png";
 
 
-// import testimonial1 from "./images/
-// import testimonial2 from "./images/
-// import quote from "./images/
+ import testimonialOne from "./images/imageface.png"
+import testimonialTwo from "./images/imageface.png"
+import quote from "./images/testimonials/right_quote-512.webp"
 import contactImg from "./images/imageface.png";
 
 export {
@@ -29,6 +29,9 @@ export {
   project9,
   bannerImg,
   contactImg,
+  testimonialOne,
+  testimonialTwo,
+  quote,
   
 
 };

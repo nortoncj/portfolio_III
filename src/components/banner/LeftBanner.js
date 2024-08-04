@@ -33,7 +33,7 @@ export default function LeftBanner() {
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
           {" "}
-          A seasoned web developer with a passion for innovation, I'm bridging the gap between software engineering and data science to create exceptional digital solutions. With a proven track record of delivering results that exceed expectations, I thrive on tackling complex challenges. My dedication to continuous learning empowers me to contribute meaningfully to cutting-edge projects. Let's build the future together.
+          I’m a digital strategist who transforms data into engaging experiences. With expertise in web development, email automation, content strategy, and data analysis, I create impactful online solutions. Let’s build something amazing together.
         </p>
       </div>
       {/* Media */}
