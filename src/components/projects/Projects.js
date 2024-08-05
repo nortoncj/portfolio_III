@@ -26,11 +26,18 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+        <ProjectsCard
+          title="Ecommerce / Saas"
+          des="HTML, CSS, Tailwind UI, Frontend. Backend currently being built using Typscript, Mongo DB, Stripe, Azure Blob Storage"
+          src={project1}
+          link="https://ecom-base.vercel.app/index.html"
+          git="https://github.com/nortoncj/Ecom-Base-Cardicus"
+        />
         {/* <ProjectsCard
           title="Ecommerce and Saas"
           des=" Node JS, React, Typescript, AWS S3 storage, Azure Blob storage and functions,  HTML, CSS, Tailwind UI, Mongo DB, Stripe"
           src={project1}
-          modLink="https://cardicus.vercel.app/"
+          modLink="https://ecom-base.vercel.app/index.html"
           note1="Admin dashboard features API endpoint integration, full CMS built with TypeScript,Tailwind, and MongoDB"
           note2="Site Features images rendered through AWS S3 storage and Cloudinary and images uploaded to Azure Blob storage"
           username="test@test.com"
